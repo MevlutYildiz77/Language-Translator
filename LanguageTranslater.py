@@ -1,6 +1,6 @@
 from googletrans import google_translator
 import streamlit as st
-from streamlit.cli import main
+from streamlit.web.cli import main
 from googletrans import Translator
 
 translator = google_translator()
